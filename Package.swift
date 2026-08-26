@@ -2,7 +2,7 @@
 // swift-tools-version: 5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Copyright (C) 2025 TeamViewer Germany GmbH. All rights reserved.
+// Copyright (C) 2026 TeamViewer Germany GmbH. All rights reserved.
 //
 
 import PackageDescription
@@ -15,49 +15,49 @@ let package = Package(
     products: [
        .library(
             name: "TeamViewerSDK",
-            targets: ["UnifiedUI", "SwiftUIExt", "TeamViewerSDK", "TVARMarking", "Lottie_19F76E9844E937_PackageProduct", "TVOneViewComponentsInterface", "TVOneViewComponents", "TVTranslations"]
+            targets: ["TVLottie", "UnifiedUI", "SwiftUIExt", "TeamViewerSDK", "TVARMarking", "TVOneViewComponentsInterface", "TVOneViewComponents", "TVTranslations"]
         )
     ],
     targets: [
          .binaryTarget(
+            name: "TVLottie",
+            url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TVLottie.xcframework.zip",
+            checksum: "aeb579a4b8f45b8dee13a5b78e5a21869daba5eec9e183d3958bcd69fcdf76af"
+        ),
+         .binaryTarget(
             name: "UnifiedUI",
-            url: "https://dl.teamviewer.com/teamviewersdk/ios/15.73.4/UnifiedUI.xcframework.zip",
-            checksum: "8f5c6dd33840de18ee203d93f737de07a50740b936f1accc35117324d54805f2"
+            url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/UnifiedUI.xcframework.zip",
+            checksum: "b111a1fdf264a57aef0636963ee99b667b8f3751c75e6098db832846934866de"
         ),
          .binaryTarget(
             name: "SwiftUIExt",
-            url: "https://dl.teamviewer.com/teamviewersdk/ios/15.73.4/SwiftUIExt.xcframework.zip",
-            checksum: "b14613378ae2717b38c28e8b718a61ca2a0df00d3203ee8324f91b95b0a9ab34"
+            url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/SwiftUIExt.xcframework.zip",
+            checksum: "313d74cb151a602c3929d6539264bc1500528c6d52e760b8e338396dd7ff132c"
         ),
          .binaryTarget(
             name: "TeamViewerSDK",
-            url: "https://dl.teamviewer.com/teamviewersdk/ios/15.73.4/TeamViewerSDK.xcframework.zip",
-            checksum: "672790979d3fc08147bfb74ac0e037581c0e62ff141a6aa266cf43a5dc7e5b33"
+            url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TeamViewerSDK.xcframework.zip",
+            checksum: "2c4a7560d1d5ed864dea8ed4d16053e65db5879baf757fb0574968b243decba3"
         ),
          .binaryTarget(
             name: "TVARMarking",
-            url: "https://dl.teamviewer.com/teamviewersdk/ios/15.73.4/TVARMarking.xcframework.zip",
-            checksum: "cec8ef0709a0b986a5d9fbb63d7c7093a63715fff1b9051dc835a51813835452"
-        ),
-         .binaryTarget(
-            name: "Lottie_19F76E9844E937_PackageProduct",
-            url: "https://dl.teamviewer.com/teamviewersdk/ios/15.73.4/Lottie_19F76E9844E937_PackageProduct.xcframework.zip",
-            checksum: "86ef377be8427f6c63a01939aa495250b537925412ed9495e995dbe2a07b9f5b"
+            url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TVARMarking.xcframework.zip",
+            checksum: "6b218013cb8a7878e492e7e0fbc87d0f6e63bcdd4bb70862213f4255b8e916bc"
         ),
          .binaryTarget(
             name: "TVOneViewComponentsInterface",
-            url: "https://dl.teamviewer.com/teamviewersdk/ios/15.73.4/TVOneViewComponentsInterface.xcframework.zip",
-            checksum: "0947dfe82c78d04399e37583cc988db53c112fe9934efa814fc7c462541fa686"
+            url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TVOneViewComponentsInterface.xcframework.zip",
+            checksum: "411adf2700f0af426c263b3a08580541b1a594d5b956cc63149fd25517136580"
         ),
          .binaryTarget(
             name: "TVOneViewComponents",
-            url: "https://dl.teamviewer.com/teamviewersdk/ios/15.73.4/TVOneViewComponents.xcframework.zip",
-            checksum: "d46dfeff2844d252bff0f329bff0c105ea85045e3b2b74df0c82a3c547c05d0e"
+            url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TVOneViewComponents.xcframework.zip",
+            checksum: "aba4184478c0d23350a2c9debc0b21f51966909defaa868b6cf08044e016b128"
         ),
          .binaryTarget(
             name: "TVTranslations",
-            url: "https://dl.teamviewer.com/teamviewersdk/ios/15.73.4/TVTranslations.xcframework.zip",
-            checksum: "6bc8d5a7a6bef412cd716007d90fefd3ad95601d6600a1125c50739d023f9304"
+            url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TVTranslations.xcframework.zip",
+            checksum: "5bbd18ca7b1a2559572bef77dce84688da1d5d6edb379f7b02b4c74648226a60"
         )
     ]
 )
