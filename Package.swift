@@ -22,42 +22,42 @@ let package = Package(
          .binaryTarget(
             name: "TVLottie",
             url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TVLottie.xcframework.zip",
-            checksum: "aeb579a4b8f45b8dee13a5b78e5a21869daba5eec9e183d3958bcd69fcdf76af"
+            checksum: "4ca9de462464a19c8f0dbc6450511f1103503e56d5ea0b0ca1301bc1c80ce656"
         ),
          .binaryTarget(
             name: "UnifiedUI",
             url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/UnifiedUI.xcframework.zip",
-            checksum: "b111a1fdf264a57aef0636963ee99b667b8f3751c75e6098db832846934866de"
+            checksum: "69cb4a2e0b2f48c57d36c72a4783f0e2a855bb2b18c60ebbe5ae6d7fbfbbfc9b"
         ),
          .binaryTarget(
             name: "SwiftUIExt",
             url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/SwiftUIExt.xcframework.zip",
-            checksum: "313d74cb151a602c3929d6539264bc1500528c6d52e760b8e338396dd7ff132c"
+            checksum: "b56b111bfea5f632bf5a8d20e9ea9edfa955b5204bbf675976d461f4e602b6dd"
         ),
          .binaryTarget(
             name: "TeamViewerSDK",
             url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TeamViewerSDK.xcframework.zip",
-            checksum: "2c4a7560d1d5ed864dea8ed4d16053e65db5879baf757fb0574968b243decba3"
+            checksum: "d0104a5fc7e9570a1f94d76d910412ebe1585fe506a53f2c4b479b529cde0f03"
         ),
          .binaryTarget(
             name: "TVARMarking",
             url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TVARMarking.xcframework.zip",
-            checksum: "6b218013cb8a7878e492e7e0fbc87d0f6e63bcdd4bb70862213f4255b8e916bc"
+            checksum: "2c33f07adac9070c9e9b7a73c1c80177695fbba2dc24b26961d1711a5527e724"
         ),
          .binaryTarget(
             name: "TVOneViewComponentsInterface",
             url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TVOneViewComponentsInterface.xcframework.zip",
-            checksum: "411adf2700f0af426c263b3a08580541b1a594d5b956cc63149fd25517136580"
+            checksum: "d05b28beab5d96ff42358a8305fa0476e182988744d37b36c99ff192db9bf95a"
         ),
          .binaryTarget(
             name: "TVOneViewComponents",
             url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TVOneViewComponents.xcframework.zip",
-            checksum: "aba4184478c0d23350a2c9debc0b21f51966909defaa868b6cf08044e016b128"
+            checksum: "f679735a22f702e2c9fc29477e6f989beaa896489c75da0fc70cf9b8a04df62e"
         ),
          .binaryTarget(
             name: "TVTranslations",
             url: "https://download.teamviewer.com/teamviewersdk/ios/15.81.5/TVTranslations.xcframework.zip",
-            checksum: "5bbd18ca7b1a2559572bef77dce84688da1d5d6edb379f7b02b4c74648226a60"
+            checksum: "01e64779901186b668bdf893827f958abbca32da8c2c5d9e67b5a6324bc12c48"
         )
     ]
 )
